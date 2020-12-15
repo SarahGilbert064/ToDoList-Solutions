@@ -26,9 +26,9 @@ namespace ToDoList.Tests
     {
       //Arrange
       string description = "Walk the dog.";
-      Item newItem = new Item(description);
 
       //Act
+      Item newItem = new Item(description);
       string result = newItem.Description;
 
       //Assert
